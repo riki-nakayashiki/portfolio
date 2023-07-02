@@ -1,0 +1,24 @@
+#home {
+    @include MakeCenter;
+
+    .home-center {
+        @include MakeColumn(5vh);
+        align-items: center;
+        justify-content: center;
+        height: 70vh;
+        width: 100%;
+        text-align: center;
+        background-color: rgba($color: whitesmoke, $alpha: .7);
+        border-radius: 10px;
+    }
+
+    h2 {
+        font-size: 30px;
+        text-shadow: 2px 2px grey;
+    }
+
+    h3 {
+        width: 80%;
+        line-height: 2;
+    }
+}

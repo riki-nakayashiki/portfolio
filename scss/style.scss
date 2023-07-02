@@ -1,0 +1,117 @@
+@import 'variable';
+@import 'mixins';
+@import 'HomeContent';
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-image: url('/src/assets/Logo.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 100vh;
+    width: 100vw;
+}
+
+.background-color {
+    height: 100%;
+    width: 100%;
+    background-color: rgba($color: $backgroundColor, $alpha: .95);
+    position: fixed;
+    z-index: -1;
+}
+
+// Navigation
+nav {
+    position: fixed;
+    z-index: 1;
+    width: 90%;
+    height: 10vh;
+    background-color: whitesmoke;
+    padding-left: 5%;
+    padding-right: 5%;
+    @include MakeRow;
+    justify-content: space-between;
+
+    figure {
+        @include MakeCenter;
+    }
+
+    img {
+        width: 4vw;
+        height: 4vw;
+        border-radius: 50%;
+        object-fit: cover;
+        border: 2px solid black;
+    }
+
+    ul {
+        @include MakeRow;
+        width: 60%;
+        height: 100%;
+    }
+
+    li {
+        display: flex;
+        width: 100%;
+        @include MakeCenter;
+
+        a {
+            @include MakeCenter;
+            width: 100%;
+            height: 80%;
+            font-size: 20px;
+            text-decoration: none;
+            color: black;
+            transition: .3s;
+        }
+
+        a:hover {
+            border-bottom: 1px solid black;
+            border-top: 1px solid black;
+            scale: 1.2;
+        }
+    }
+}
+
+// Main Contents
+main {
+    padding-top: 10vh;
+    overflow: auto;
+    @include MakeColumn;
+    align-items: center;
+}
+
+.contents {
+    width: 90%;
+    height: 90vh;
+    padding-top: 10vh;
+    margin-top: -10vh;
+
+    h1 {
+        @include MakeCenter;
+        height: 8vh;
+        border-bottom: 1px solid grey;
+    }
+}
+
+// Footer
+footer {
+    height: 50vh;
+}
+
+#about{
+    img{
+        width: 30vh;
+        border-radius: 50%;
+    }
+}
