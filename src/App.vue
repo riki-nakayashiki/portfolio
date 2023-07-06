@@ -13,7 +13,9 @@
   </main>
   <!-- Footer -->
   <footer>
-    Footer
+    <p>
+      &copy; Riki's portfolio - 2023. All rights reserved.
+    </p>
   </footer>
 </template>
 
@@ -41,5 +43,5 @@ export default {
 
 <style>
 @import '../css/style.css';
-/* @import 'https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css'; */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:wght@200;300;400;500;600&display=swap');
 </style>

@@ -45,7 +45,7 @@
                         internal trainings
                     </p>
                     <p>
-                        Tool: Java, HTML, css, bootstrap and MySQL
+                        Tool: Java, HTML, css, bootstrap, MySQL
                     </p>
                 </figcaption>
             </figure>

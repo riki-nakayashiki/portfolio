@@ -66,8 +66,8 @@
             <fieldset>
                 <legend>VCS</legend>
                 <aside>
-                    <i class="devicon-github-original colored"></i>
-                    <p>GitHub</p>
+                    <i class="fa-brands fa-square-git"></i>
+                    <p>Git</p>
                 </aside>
             </fieldset>
             <fieldset>

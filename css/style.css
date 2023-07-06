@@ -1,3 +1,70 @@
+nav {
+  position: fixed;
+  z-index: 3;
+  width: 90%;
+  height: 10vh;
+  background-color: whitesmoke;
+  padding-left: 5%;
+  padding-right: 5%;
+  display: flex;
+  flex-direction: row;
+  column-gap: 0vh;
+  justify-content: space-between;
+}
+nav figure {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+nav img {
+  width: 4vw;
+  height: 4vw;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid black;
+}
+nav ul {
+  display: flex;
+  flex-direction: row;
+  column-gap: 0vh;
+  width: 60%;
+  height: 100%;
+}
+nav li {
+  display: flex;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+nav li a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 80%;
+  font-size: 16px;
+  text-decoration: none;
+  color: black;
+  transition: 0.3s;
+}
+nav li a:hover {
+  border-bottom: 1px solid black;
+  border-top: 1px solid black;
+  scale: 1.2;
+}
+nav .nav-links {
+  width: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-around;
+}
+nav .nav-links a {
+  text-decoration: none;
+  font-size: 2.5vw;
+}
+
 #home {
   display: flex;
   justify-content: center;
@@ -58,116 +125,6 @@
   line-height: 1.5;
 }
 
-* {
-  margin: 0;
-  padding: 0;
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
-}
-
-html {
-  scroll-behavior: smooth;
-}
-
-body {
-  background-image: url("/src/assets/Logo.png");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  height: 100vh;
-  width: 100vw;
-}
-
-.background-color {
-  height: 100%;
-  width: 100%;
-  background-color: rgba(220, 220, 220, 0.95);
-  position: fixed;
-  z-index: -1;
-}
-
-nav {
-  position: fixed;
-  z-index: 3;
-  width: 90%;
-  height: 10vh;
-  background-color: whitesmoke;
-  padding-left: 5%;
-  padding-right: 5%;
-  display: flex;
-  flex-direction: row;
-  column-gap: 0vh;
-  justify-content: space-between;
-}
-nav figure {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-nav img {
-  width: 4vw;
-  height: 4vw;
-  border-radius: 50%;
-  object-fit: cover;
-  border: 2px solid black;
-}
-nav ul {
-  display: flex;
-  flex-direction: row;
-  column-gap: 0vh;
-  width: 60%;
-  height: 100%;
-}
-nav li {
-  display: flex;
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-nav li a {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-  height: 80%;
-  font-size: 16px;
-  text-decoration: none;
-  color: black;
-  transition: 0.3s;
-}
-nav li a:hover {
-  border-bottom: 1px solid black;
-  border-top: 1px solid black;
-  scale: 1.2;
-}
-
-main {
-  padding-top: 10vh;
-  overflow: auto;
-  display: flex;
-  flex-direction: column;
-  row-gap: 0vh;
-  align-items: center;
-}
-
-.contents {
-  width: 90%;
-  padding-top: 10vh;
-  margin-top: -10vh;
-  padding-bottom: 20vh;
-}
-.contents h1 {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 8vh;
-}
-
-footer {
-  height: 50vh;
-}
-
 #experience {
   display: flex;
   flex-direction: column;
@@ -177,8 +134,8 @@ footer {
 #experience .gallery {
   display: flex;
   flex-direction: row;
-  column-gap: 2vw;
-  row-gap: 2vw;
+  column-gap: 0vh;
+  gap: 3vw;
   justify-content: center;
   flex-wrap: wrap;
 }
@@ -190,8 +147,12 @@ footer {
   width: 80vh;
   position: relative;
   overflow-y: hidden;
-  background-color: white;
+  background-color: whitesmoke;
   border-radius: 10px;
+  transition: 0.6s;
+}
+#experience figure:hover {
+  scale: 1.1;
 }
 #experience figure figcaption {
   overflow-y: hidden;
@@ -260,4 +221,120 @@ footer {
 }
 #skills i {
   font-size: 10vh;
+}
+
+#contact {
+  display: flex;
+  flex-direction: column;
+  row-gap: 8vh;
+  align-items: center;
+}
+#contact .send-mail {
+  display: flex;
+  flex-direction: column;
+  row-gap: 5vh;
+  align-items: center;
+  width: 80%;
+}
+#contact .send-mail p {
+  text-align: center;
+  font-size: 1.5vw;
+  line-height: 1.5;
+}
+#contact .send-mail a {
+  text-decoration: none;
+  font-size: 2vw;
+  color: black;
+  background-color: white;
+  box-shadow: 5px 5px grey;
+  padding: 2%;
+  border-radius: 10px;
+  font-family: "Times New Roman", Times, serif;
+}
+#contact .send-mail a:active {
+  box-shadow: none;
+  transform: translateY(5px);
+}
+#contact span {
+  width: 40%;
+  border: 1px solid grey;
+}
+#contact .links {
+  display: flex;
+  flex-direction: row;
+  column-gap: 5vw;
+}
+#contact .links a {
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  row-gap: 0vh;
+  align-items: center;
+  text-align: center;
+  color: black;
+}
+#contact .links a:hover {
+  scale: 1.1;
+}
+#contact .links i {
+  font-size: 10vh;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Noto Serif", serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-image: url("/src/assets/Logo.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: 100vh;
+  width: 100vw;
+}
+
+.background-color {
+  height: 100%;
+  width: 100%;
+  background-color: rgba(220, 220, 220, 0.95);
+  position: fixed;
+  z-index: -1;
+}
+
+main {
+  padding-top: 10vh;
+  overflow: auto;
+  display: flex;
+  flex-direction: column;
+  row-gap: 0vh;
+  align-items: center;
+}
+
+.contents {
+  width: 90%;
+  padding-top: 10vh;
+  margin-top: -10vh;
+  padding-bottom: 20vh;
+}
+.contents h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 8vh;
+  font-style: italic;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1%;
+  background-color: rgba(245, 245, 245, 0.7);
 }/*# sourceMappingURL=style.css.map */
