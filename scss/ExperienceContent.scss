@@ -1,10 +1,11 @@
+// Experience
 #experience {
     @include MakeColumn(5vh);
     width: 100%;
 
     .gallery {
         @include MakeRow;
-        gap: 3vw;
+        gap: 6vh;
         justify-content: center;
         flex-wrap: wrap;
     }
@@ -12,7 +13,7 @@
     figure {
         @include MakeColumn(5vh);
         height: 50vh;
-        width: 80vh;
+        width: 40vw;
         position: relative;
         overflow-y: hidden;
         background-color: whitesmoke;
@@ -22,7 +23,6 @@
         &:hover {
             scale: 1.1;
         }
-
 
         figcaption {
             overflow-y: hidden;
@@ -36,30 +36,51 @@
             z-index: 1;
             transition: .6s;
             overflow: scroll;
-
-            h3 {
-                width: 100%;
-                text-align: center;
-            }
-
-            p {
-                width: 90%;
-                text-align: left;
-                font-size: 16px;
-                padding: 2%;
-                line-height: 1.5;
-            }
         }
 
         &:hover figcaption {
             height: 100%;
         }
+
+        h3 {
+            width: 100%;
+            text-align: center;
+        }
+
+        p {
+            width: 90%;
+            text-align: left;
+            padding: 2%;
+            line-height: 1.5;
+        }
     }
+
 
     img {
         height: 100%;
         width: 100%;
         object-fit: contain;
         position: absolute;
+    }
+}
+
+@media (max-width: $tabletScreen) {
+    #experience {
+        figure {
+            height: 30vh;
+            width: 90vw;
+
+            figcaption {
+                height: 100%;
+            }
+        }
+    }
+}
+
+@media (max-width: $mobileScreen) {
+    #experience {
+        figure {
+            height: 50vh;
+        }
     }
 }
