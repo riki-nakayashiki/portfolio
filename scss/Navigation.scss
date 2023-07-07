@@ -1,3 +1,4 @@
+// //NAV 
 nav {
     position: fixed;
     z-index: 3;
@@ -14,8 +15,8 @@ nav {
     }
 
     img {
-        width: 4vw;
-        height: 4vw;
+        width: 8vh;
+        height: 8vh;
         border-radius: 50%;
         object-fit: cover;
         border: 2px solid black;
@@ -50,15 +51,49 @@ nav {
     }
 
     .nav-links {
-        width: 20%;
-        @include MakeCenter;
-        justify-content: space-around;
+        // width: 20%;
+        @include MakeRow(2vw);
+        align-items: center;
+        // justify-content: space-around;
+        // border: 1px solid red;
 
         a {
             text-decoration: none;
-            font-size: 2.5vw;
+            font-size: 5vh;
         }
 
     }
 
 }
+
+@media (max-width: $tabletScreen) {
+    .bigger-menu {
+        display: none;
+    }
+
+    .smaller-menu {
+        font-size: 2.5vh;
+        background-color: darkgray;
+        padding-top: 10vh;
+        text-align: center;
+
+        summary {
+            width: 100%
+        }
+
+        ul {
+            @include MakeColumn;
+        }
+
+        a {
+            @include MakeCenter;
+            padding: 1%;
+            font-size: 20px;
+            text-decoration: none;
+            color: black;
+            transition: .3s;
+        }
+    }
+}
+
+@media (max-width: $mobileScreen) {}

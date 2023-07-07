@@ -1,3 +1,4 @@
+// Skills
 #skills {
     @include MakeColumn(5vh);
     align-items: center;
@@ -25,5 +26,14 @@
 
     i {
         font-size: 10vh;
+    }
+}
+
+@media (max-width: $tabletScreen) {
+    #skills {
+        fieldset {
+            row-gap: 2vw;
+            flex-wrap: wrap;
+        }
     }
 }
