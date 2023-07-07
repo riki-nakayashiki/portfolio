@@ -1,0 +1,29 @@
+#skills {
+    @include MakeColumn(5vh);
+    align-items: center;
+
+    >section {
+        width: 80%;
+        @include MakeColumn(3vw);
+    }
+
+    fieldset {
+        padding: 3%;
+        @include MakeRow(2vw);
+    }
+
+    legend {
+        font-size: 20px;
+        font-weight: 600
+    }
+
+    aside {
+        @include MakeColumn;
+        align-items: center;
+        text-align: center;
+    }
+
+    i {
+        font-size: 10vh;
+    }
+}

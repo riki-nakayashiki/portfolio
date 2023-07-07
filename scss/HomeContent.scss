@@ -1,5 +1,6 @@
 #home {
     @include MakeCenter;
+    height: 90vh;
 
     .home-center {
         @include MakeColumn(5vh);
