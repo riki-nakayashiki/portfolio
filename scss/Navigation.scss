@@ -51,11 +51,8 @@ nav {
     }
 
     .nav-links {
-        // width: 20%;
         @include MakeRow(2vw);
         align-items: center;
-        // justify-content: space-around;
-        // border: 1px solid red;
 
         a {
             text-decoration: none;
@@ -83,6 +80,10 @@ nav {
 
         ul {
             @include MakeColumn;
+        }
+
+        li {
+            display: flex;
         }
 
         a {
