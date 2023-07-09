@@ -63,27 +63,29 @@ nav {
 
 }
 
+.smaller-menu {
+    display: none;
+}
+
 @media (max-width: $tabletScreen) {
     .bigger-menu {
         display: none;
     }
 
     .smaller-menu {
+        display: flex;
         font-size: 2.5vh;
         background-color: darkgray;
         padding-top: 10vh;
         text-align: center;
-
+        
         summary {
-            width: 100%
+            width: 100%;
+            height: 4vh;
         }
-
-        ul {
-            @include MakeColumn;
-        }
-
+        
         li {
-            display: flex;
+            @include MakeCenter;
         }
 
         a {
