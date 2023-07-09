@@ -7,7 +7,7 @@
                 innovative and engaging digital experiences.<br>
                 Feel free to get in touch and let's discuss any opportunities!
             </p>
-            <a href="mailto:riki.nakayashiki@gmail.com?subject=A Message from Riki's portfolio">
+            <a href="mailto:riki.nakayashiki@gmail.com?subject=A Message from the portfolio">
                 <i class="fa-solid fa-envelope"></i>
                 SEND ME AN EMAIL
             </a>

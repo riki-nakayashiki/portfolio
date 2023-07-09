@@ -6,7 +6,7 @@
             </a>
         </figure>
         <section class="nav-links">
-            <a href="mailto:riki.nakayashiki@gmail.com?subject=A Message from Riki's portfolio">
+            <a href="mailto:riki.nakayashiki@gmail.com?subject=A Message from the portfolio">
                 <i class="fa-solid fa-envelope"></i>
             </a>
             <a href="https://www.linkedin.com/in/riki-nakayashiki-92193b262/" target="_blank">
