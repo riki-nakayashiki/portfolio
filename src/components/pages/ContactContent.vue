@@ -22,7 +22,7 @@
                 <i class="devicon-github-original colored"></i>
                 <p>GitHub</p>
             </a>
-            <a href="../../assets/resume.pdf" target="_blank">
+            <a href="https://drive.google.com/file/d/1h-BP183vaZ9IgJoRqSag66W6WhA94NEO/view?usp=sharing" target="_blank">
                 <i class="fa-solid fa-file-pdf" style="color: #3de70d;"></i>
                 <p>My resume</p>
             </a>
