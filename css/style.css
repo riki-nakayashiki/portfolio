@@ -81,6 +81,7 @@ nav .nav-links a {
   }
   .smaller-menu summary {
     width: 100%;
+    height: 4vh;
   }
   .smaller-menu li {
     display: flex;
@@ -362,12 +363,13 @@ nav .nav-links a {
   #contact {
     display: flex;
     flex-direction: column;
-    row-gap: 3vh;
+    row-gap: 4vh;
+    padding-top: 0vh;
   }
   #contact .send-mail {
     display: flex;
     flex-direction: column;
-    row-gap: 2vh;
+    row-gap: 3vh;
   }
   #contact .send-mail p {
     font-size: 4vw;

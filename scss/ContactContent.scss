@@ -59,10 +59,11 @@
 
 @media (max-width: $tabletScreen) {
     #contact {
-        @include MakeColumn(3vh);
+        @include MakeColumn(4vh);
+        padding-top: 0vh;
 
         .send-mail {
-            @include MakeColumn(2vh);
+            @include MakeColumn(3vh);
 
             p {
                 font-size: 4vw;
