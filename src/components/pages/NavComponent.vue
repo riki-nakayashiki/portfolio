@@ -15,7 +15,7 @@
             <a href="https://github.com/riki-nakayashiki" target="_blank">
                 <i class="devicon-github-original colored"></i>
             </a>
-            <a href="https://drive.google.com/file/d/1h-BP183vaZ9IgJoRqSag66W6WhA94NEO/view?usp=sharing" target="_blank">
+            <a href="https://drive.google.com/file/d/1hq8PU16HajWFJK75UBS5mRJUdCmGat55/view?usp=sharing" target="_blank">
                 <i class="fa-solid fa-file-pdf" style="color: #3de70d;"></i>
             </a>
         </section>
