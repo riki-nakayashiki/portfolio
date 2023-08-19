@@ -22,8 +22,8 @@
                 <i class="devicon-github-original colored"></i>
                 <p>GitHub</p>
             </a>
-            <a href="https://drive.google.com/file/d/1hx1zAvRBIG28MUDMtzwUE1RjCamXLCeR/view?usp=sharing" target="_blank">
-                <i class="fa-solid fa-file-pdf" style="color: #3de70d;"></i>
+            <a href="https://drive.google.com/file/d/1rTlhGE22EVmRtgYfpiIsRmwIz5HJohij/view?usp=sharing" target="_blank">
+                <i class="fa-regular fa-file-lines" style="color: #3de70d;"></i>
                 <p>My resume</p>
             </a>
         </section>

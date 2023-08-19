@@ -3,15 +3,34 @@
         <h1>Projects</h1>
         <section class="gallery">
             <figure>
-                <img src="../../assets/rpa.png" alt="rpa">
+                <img src="../../assets/internal.png" alt="internal">
                 <figcaption>
-                    <h3>RPA development Project</h3>
+                    <h3>Internal website development project</h3>
                     <p>
-                        -Developed several virtual robots to automate customer's operation by myself including all steps
-                        from requirement definition, coding, testing to release task.
+                        -Developed an internal website for over 10,000 employees to track their completion of internal
+                        training courses
                     </p>
                     <p>
-                        -As a team leader, managed several teams to develop several virtual robots
+                        -Created various deliverables and documents for both the project team and users
+                    </p>
+                    <p>
+                        Tool: Java, HTML, css, bootstrap, MySQL
+                    </p>
+                </figcaption>
+            </figure>
+            <figure>
+                <img src="../../assets/rpa.png" alt="rpa">
+                <figcaption>
+                    <h3>RPA(Robotic process automation) development Project</h3>
+                    <p>
+                        -Independently developed virtual robots to automate various customer operations, covering all stages
+                        from requirement definition to operation.
+                    </p>
+                    <p>
+                        -Engaged in extensive discussions with customers to determine necessary features
+                    </p>
+                    <p>
+                        -As a team leader, managed several small teams to develop several virtual robots
                     </p>
                     <p>
                         Tool:UiPath
@@ -23,29 +42,17 @@
                 <figcaption>
                     <h3>Optimization and automation of BPO operation</h3>
                     <p>
-                        -Optimized business process outsourcing operation using several technologies
+                        -Enhanced business process outsourcing operations through the implementation of multiple
+                        technologies
                     </p>
                     <p>
-                        -Developed a new website for BPO operation using Power Platform
+                        -Designed and developed a new website for BPO operations using the Power Platform
                     </p>
                     <p>
-                        -Automated some part of operation
+                        -Automated specific aspects of the operation
                     </p>
                     <p>
                         Tool: Power platform(Power apps, power automate), UiPath, database
-                    </p>
-                </figcaption>
-            </figure>
-            <figure>
-                <img src="../../assets/internal.png" alt="internal">
-                <figcaption>
-                    <h3>Internal website development</h3>
-                    <p>
-                        -Developed a website for over 10,000 internal employees to track if they complete every single
-                        internal trainings
-                    </p>
-                    <p>
-                        Tool: Java, HTML, css, bootstrap, MySQL
                     </p>
                 </figcaption>
             </figure>

@@ -3,33 +3,25 @@
         <h1>About</h1>
         <article>
             <p class="description">
-                With over five years of experience as an IT consultant at Accenture, I have got my skills in providing
-                cutting-edge
-                technology solutions to clients. During my time there, I worked on various projects, collaborating with
-                diverse
-                teams and delivering successful outcomes.
+                With over five years of experience in the technology industry, I possess diverse expertise as a software developer, including web development, robotic process automation, and optimizing client operations using various technologies. Additionally, I enhanced my skills by learning web development in Canada, which broadened my technical knowledge and exposed me to different cultural perspectives. 
             </p>
         </article>
         <figure>
             <aside>
-                IT Consultant 
+                Software Developer
                 <br> Accenture | Tokyo, Japan
                 <br> July 2017 - December 2022
             </aside>
             <img src="../../assets/profilepic.png" alt="profilepic">
             <aside>
-                Web Developer Program 
+                Web Developer Program
                 <br> Tamwood Career College | Vancouver, Canada
-                <br> January 2023 - Present
+                <br> February 2023 - August 2023
             </aside>
         </figure>
         <article>
             <p class="description">
-                Additionally, I pursued further professional development by studying web development in Canada. This
-                experience
-                not only expanded my technical knowledge but also gave me exposure to different cultural perspectives. I am
-                passionate about using my expertise in IT consulting and web development to create innovative solutions and
-                drive positive change in the digital landscape.
+                Through the integration of these experiences, I provide a comprehensive understanding of development techniques and various technologies to make meaningful contributions to any project.
             </p>
         </article>
     </section>

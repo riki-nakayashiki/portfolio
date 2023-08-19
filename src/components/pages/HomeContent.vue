@@ -5,8 +5,7 @@
                 Hello, I'm Riki!
             </h2>
             <h3>
-                An experienced IT consultant and web developer, skilled in providing comprehensive solutions for clients'
-                technological needs.
+                Experienced software developer with diverse tech background, offering impactfull contributions for any project through integrated expertise.
             </h3>
         </div>
     </section>
