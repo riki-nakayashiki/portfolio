@@ -27,10 +27,7 @@
                         from requirement definition to operation.
                     </p>
                     <p>
-                        -Engaged in extensive discussions with customers to determine necessary features
-                    </p>
-                    <p>
-                        -As a team leader, managed several small teams to develop several virtual robots
+                        -As a team leader, managed several small teams to develop several virtual robots and engaged in extensive discussions with customers to determine necessary features
                     </p>
                     <p>
                         Tool:UiPath
@@ -77,6 +74,18 @@
                     </p>
                     <p>
                         Tool: HTML, CSS, PHP, MySQL, Git
+                    </p>
+                </figcaption>
+            </figure>
+            <figure>
+                <img src="../../assets/e-commerce-app.png" alt="ecommerce">
+                <figcaption>
+                    <h3>Website development for e-commerce demo</h3>
+                    <p>
+                        -Developed a website for a e-commerce app
+                    </p>
+                    <p>
+                        Tool: HTML, CSS, JavaScript, React, Git
                     </p>
                 </figcaption>
             </figure>
